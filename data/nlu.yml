@@ -1,0 +1,240 @@
+version: "2.0"
+
+nlu:
+
+- intent: language_en
+  examples: |
+    - English
+    
+
+- intent: language_sin
+  examples: |
+    - සිංහල    
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - ආයුබෝවන්
+    - හෙලෝ 
+    - හායි
+    - සුභ උදෑසනක්
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+ 
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: main_menu1
+  examples: |
+    - I want to buy a vehicle 
+    
+
+- intent: main_menu2
+  examples: |  
+    - I want to sell a vehicle
+ 
+
+- intent: main_menu3
+  examples: |
+    - I want to buy vehicle parts
+    
+- intent: main_menu4
+  examples: |  
+    - I want to sell vehicle parts 
+
+
+############################
+
+##Sinhala main menu 
+
+################################
+
+- intent: buy_vehicle_parts
+  examples: |
+    - I want to buy a dashboard
+    - I want to buy rim cups
+    
+
+
+- intent: sell_vehicle_parts
+  examples: |
+    - I want to sell a dashboard
+    - I want to sell rim cups
+    - rims    
+
+- intent: sell_vehicle
+  examples: |
+    - I want to sell a car
+    - I want to sell a van
+    - I want to sell my car
+    - I want to sell my [toyota](car_type) car
+
+
+
+
+
+- intent: vehicle_condition_new
+  examples: |
+    - [brand new vehicle](vehicle_con)
+    - I want to buy a [brand new vehicle](vehicle_con)
+    - I want to buy a [brand new car](vehicle_con)
+
+
+- intent: vehicle_condition_used
+  examples: |
+    - [used vehicle](vehicle_con)
+    - I want to buy a [used vehicle](vehicle_con)
+    - [second hand vehicle](vehicle_con)
+    - i'd like a [used](vehicle_con) car
+
+
+
+- intent: fuel_type_petrol
+  examples: |
+    - [petrol](fuel)
+    - I want to buy a [petrol(fuel) vehicle
+    - I want to buy a [petrol](fuel) car
+     
+   
+- intent: fuel_type_diesel
+  examples: |
+    - [diesel](fuel)
+    - I want to buy a [diesel](fuel) vehicle
+    - I want to buy a [diesel](fuel) car
+    - give me a [diesel](fuel) car
+
+- intent: fuel_type_hybrid
+  examples: |
+    - I want to buy a [hybrib](fuel) vehicle
+    - I want to buy a [hybrid](fuel) car  
+    - [hybrid](fuel)
+
+
+- intent: toyota_new_cars
+  examples: |
+    - Toyota
+    - Toyota car
+    - toyota car    
+
+- intent: alto_new_cars
+  examples: |
+    - alto
+    - alto car
+    - susuzki alto car    
+
+- intent: mitsubishi_new_cars
+  examples: |
+    - mitsu
+    - mitsubishi
+    - Mitsubishi
+    - I want to buy a Mitsubishi car   
+
+- intent: choose_car_type
+  examples: |
+    - I'd like a [sport car](car_type), please
+    - I'd like to buy a [city car](car_type), please
+    - I would drive a [sedan](car_type), please
+    - I want for me and my family a [suv](car_type), please
+    - I like feeling air on my hair, so [cabriolet](car_type) it's the right choice for me!
+    - For my family I need a [station wagon](car_type), please
+    - I need a [city car](car_type) to reach my workplace, please
+    - I like to drive fast and I'd like to buy a [coupè](car_type), please
+    - I prefer a [sedan](car_type), please
+    - I live in a countryside and a [pickup](car_type) is the right choice for me, please
+    - I'd like a [electric car](car_type), please
+    - I prefer a [hybrid](car_type), please   
+    - I want to buy a [toyota](car_type) car
+    - I want to buy a [BMW](car_type).
+    - [BMW](car_type)
+    - [toyota](car_type)
+    - I want to buy a [maruti](car_type)
+    - [Swift](car_type)
+    - axio

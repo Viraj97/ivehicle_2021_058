@@ -1,0 +1,221 @@
+version: "2.0"
+
+intents:
+  - language_en
+  - language_sin
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - vehicle_condition_new
+  - vehicle_condition_used
+  - fuel_type_petrol
+  - fuel_type_diesel
+  - fuel_type_hybrid
+  - choose_car_type
+  - sell_vehicle
+  - main_menu1
+  - main_menu2
+  - main_menu3
+  - main_menu4
+  - buy_vehicle_parts
+  - sell_vehicle_parts
+  - toyota_new_cars
+  - alto_new_cars
+  - mitsubishi_new_cars
+###########################
+  - greet_sin
+  - goodbye_sin
+  - main_menu1_sin
+  - main_menu2_sin
+  - main_menu3_sin
+  - main_menu4_sin
+  - sell_vehicle_sin
+  - vehicle_condition_new_sin
+  - vehicle_condition_used_sin
+  - fuel_type_petrol_sin  
+  - fuel_type_diesel_sin
+  - toyota_new_cars_sin
+  - alto_new_cars_sin
+
+
+entities:
+  - vehicle_con
+  - fuel
+  - car_type
+
+slots:
+  vehicle_con:
+    type: text
+    influence_conversation: true
+  fuel:
+    type: text
+    influence_conversation: true
+  car_type:
+    type: text
+    influence_conversation: true     
+  requested_slot:
+    type: unfeaturized
+    influence_conversation: false
+
+actions:
+  - action_hello_world
+  - action_choose_car_type  
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_welcome_msg:
+  - text: "What type of a service do you want?"
+    buttons:
+      - payload:  "/main_menu1"
+        title:  "buy vehicle"
+      - payload:  "/main_menu2"
+        title:  "sell vehicle" 
+      - payload:  "/main_menu3"
+        title:  "buy vehicle parts" 
+      - payload:  "/main_menu4"
+        title:  "sell vehicle parts"    
+
+
+  utter_vehicle_condition:
+  - text: "Do you want a used vehicle or a brand new vehicle ?"
+    buttons:
+      - payload:  "/vehicle_condition_new"
+        title:  "brand new vehicle"
+      - payload:  "/vehicle_condition_used"
+        title:  "used vehicle" 
+
+  utter_fuel_type:
+  - text: "What fuel type do you prefer ?"
+    buttons:
+      - payload:  "/fuel_type_petrol"
+        title:  "Petrol"
+      - payload:  "/fuel_type_diesel"
+        title:  "Diesel" 
+      - payload:  "/fuel_type_hybrid"
+        title:  "Hybrid"   
+
+  utter_car_model:
+  - text: "What type of a vehicle model do you want ?"
+
+
+  utter_brand_new_cars_petrol:
+  - text: "Choose what type of a car model do you prefer ?"
+    buttons:
+      - payload:  "/toyota_new_cars"
+        title:  "Toyota"
+      - payload:  "/alto_new_cars"
+        title:  "Alto" 
+      - payload:  "/mitsubishi_new_cars"
+        title:  "Mitsubishi" 
+
+  utter_toyota_link:
+   - text: "You can Check out this link to buy your Toyota car \n https://www.toyota.lk/ "
+  
+  utter_alto_link:
+   - text: "You can Check out this links to buy your Alto car \n 01.https://suzuki.lk/alto.php \n 02.https://www.marutisuzuki.com/alto "
+  
+  utter_mitsu_link:
+   - text: "You can Check out this links to buy your Mitsubishi car \n 01.https://www.mitsubishi-motors.com/en/products/ "
+  
+
+  utter_sell_Vehicle:
+  - text: "Check out this [link](https://www.patpat.lk/vehicle) to sell your car."
+
+  utter_buy_vehicle_parts:
+  - text: "You can Check out this link to buy your spare parts \n [link](https://riyasewana.com/spare-parts-accessories.php) "
+
+  utter_buy_vehicle_parts_model:
+  - text: "What type of a vehicle spare part do you want ?"
+
+  utter_sell_vehicle_parts_model:
+  - text: "What type of a vehicle spare part do you want sell ?"
+
+  utter_sell_vehicle_parts:
+  - text: "You can Check out this link to sell your spare parts \n [link](https://www.saleme.lk/ads/sri-lanka/auto-parts-&-accessories) "
+
+
+  utter_common_link:
+  - text: "Check out this link \n https://ikman.lk/en/ads/c/sri-lanka/cars/new " 
+
+
+#### Sinhala Responses ##########
+  utter_greet_sin:
+  - text: "හායි ඔයාට කොහොමද ? "
+
+  utter_select_language:
+  - text: "Please select a language to proceed"
+    buttons:
+      - payload:  "/language_en"
+        title:  "English"
+      - payload:  "/language_sin"
+        title:  "සිංහල"   
+
+
+
+  utter_welcome_msg_sin:
+  - text: "ඔබට අවශ්‍ය කුමන ආකාරයේ සේවාවක් ද??"
+    buttons:
+      - payload:  "/main_menu1_sin"
+        title:  "වාහනයක් මිලදී ගැනීම"
+      - payload:  "/main_menu2_sin"
+        title:  "වාහනයක් විකිණීම" 
+      - payload:  "/main_menu3_sin"
+        title:  "වාහන අමතර කොටස් මිලදී ගැනීම" 
+      - payload:  "/main_menu4_sin"
+        title:  "වාහන අමතර කොටස් විකිණීම"  
+
+     
+  utter_vehicle_condition_sin:
+  - text: "ඔබට පාවිච්චි කළ වාහනයක්ද අළුත් වාහනයක්ද අවශ්‍යද?"
+    buttons:
+      - payload:  "/vehicle_condition_new_sin"
+        title:  "නවතම වාහන"
+      - payload:  "/vehicle_condition_used_sin"
+        title:  "පාවිච්චි කළ වාහන"  
+
+
+  utter_fuel_type_sin:
+  - text: "ඔබ කැමති ඉන්ධන වර්ගයක් තෝරන්න? ?"
+    buttons:
+      - payload:  "/fuel_type_petrol_sin"
+        title:  "පෙට්‍රල්"
+      - payload:  "/fuel_type_diesel_sin"
+        title:  "ඩීසල්" 
+
+  utter_brand_new_cars_petrol_sin:
+  - text: "ඔබ කැමති කුමන වර්ගයේ කාර් මාදිලියද යන්න තෝරන්න ?"
+    buttons:
+      - payload:  "/toyota_new_cars_sin"
+        title:  "ටොයොටා"
+      - payload:  "/alto_new_cars_sin"
+        title:  "ඇල්ටෝ" 
+
+  utter_toyota_link_sin:
+   - text: "ඔබේ ටොයොටා කාරය මිලදී ගැනීම සඳහා ඔබට මෙම සම්බන්ධකය පරීක්ෂා කළ හැකිය \n https://www.toyota.lk/ "
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

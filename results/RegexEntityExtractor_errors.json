@@ -1,0 +1,1031 @@
+[
+  {
+    "text": "I want to sell my toyota car",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "toyota",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9729195833206177,
+        "value": "toyota",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "brand new vehicle",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "brand new vehicle",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.998904824256897,
+        "value": "brand new vehicle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a brand new vehicle",
+    "entities": [
+      {
+        "start": 16,
+        "end": 33,
+        "value": "brand new vehicle",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 16,
+        "end": 33,
+        "confidence_entity": 0.9986940026283264,
+        "value": "brand new vehicle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a brand new car",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "brand new car",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 16,
+        "end": 29,
+        "confidence_entity": 0.9958042502403259,
+        "value": "brand new car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "used vehicle",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "used vehicle",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.9688689708709717,
+        "value": "used vehicle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a used vehicle",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "value": "used vehicle",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 16,
+        "end": 28,
+        "confidence_entity": 0.7653713226318359,
+        "value": "used vehicle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "second hand vehicle",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "second hand vehicle",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 19,
+        "confidence_entity": 0.8632512092590332,
+        "value": "second hand vehicle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i'd like a used car",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "used",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.49371349811553955,
+        "value": "used car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "petrol",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "petrol",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9986490607261658,
+        "value": "petrol",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a petrol car",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "petrol",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9979815483093262,
+        "value": "petrol",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "diesel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "diesel",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9991737008094788,
+        "value": "diesel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a diesel vehicle",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "diesel",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9989076852798462,
+        "value": "diesel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a diesel car",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "diesel",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9987112283706665,
+        "value": "diesel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me a diesel car",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "diesel",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9980823993682861,
+        "value": "diesel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a hybrib vehicle",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "hybrib",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9955821633338928,
+        "value": "hybrib",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a hybrid car",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "hybrid",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.6085078716278076,
+        "value": "hybrid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hybrid",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "hybrid",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9835023283958435,
+        "value": "hybrid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd like a sport car, please",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "sport car",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9978627562522888,
+        "value": "sport car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd like to buy a city car, please",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "city car",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.9977937936782837,
+        "value": "city car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would drive a sedan, please",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "sedan",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.9988514184951782,
+        "value": "sedan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want for me and my family a suv, please",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "suv",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.9990321397781372,
+        "value": "suv",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I like feeling air on my hair, so cabriolet it's the right choice for me!",
+    "entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "value": "cabriolet",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.9985283613204956,
+        "value": "cabriolet",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "For my family I need a station wagon, please",
+    "entities": [
+      {
+        "start": 23,
+        "end": 36,
+        "value": "station wagon",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 23,
+        "end": 36,
+        "confidence_entity": 0.9970976114273071,
+        "value": "station wagon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need a city car to reach my workplace, please",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "city car",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.997821569442749,
+        "value": "city car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I like to drive fast and I'd like to buy a coupè, please",
+    "entities": [
+      {
+        "start": 43,
+        "end": 48,
+        "value": "coupè",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.9990359544754028,
+        "value": "coupè",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I prefer a sedan, please",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "sedan",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9988196492195129,
+        "value": "sedan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I live in a countryside and a pickup is the right choice for me, please",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "pickup",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.9995576739311218,
+        "value": "pickup",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd like a electric car, please",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "electric car",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 11,
+        "end": 23,
+        "confidence_entity": 0.9984061121940613,
+        "value": "electric car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I prefer a hybrid, please",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "hybrid",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.7964826822280884,
+        "value": "hybrid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a toyota car",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "toyota",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9779991507530212,
+        "value": "toyota",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a BMW.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "BMW",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.9994438290596008,
+        "value": "BMW",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "BMW",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "BMW",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9985365867614746,
+        "value": "BMW",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "toyota",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "toyota",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.7538020014762878,
+        "value": "toyota",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to buy a maruti",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "maruti",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9987830519676208,
+        "value": "maruti",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Swift",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Swift",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.998380184173584,
+        "value": "Swift",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට මගේ ටොයොටා කාරය විකිණීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "ටොයොටා",
+        "entity": "car_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "car_type",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9906697273254395,
+        "value": "ටොයොටා",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "නවතම වාහනයක්",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "නවතම වාහනයක්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.9953837990760803,
+        "value": "නවතම වාහනයක්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට නවතම වාහනයක් මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 15,
+        "value": "නවතම වාහනයක්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 15,
+        "confidence_entity": 0.9933375120162964,
+        "value": "නවතම වාහනයක්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට නවතම කාර් එකක් මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 12,
+        "value": "නවතම කාර්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.9988094568252563,
+        "value": "නවතම කාර්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට brand new කාර් එකක් මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 17,
+        "value": "brand new කාර්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 17,
+        "confidence_entity": 0.9959003329277039,
+        "value": "brand new කාර්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "අලුත් වාහනයක් මට උවමනා කර තිබේ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "අලුත් වාහනයක්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9670403599739075,
+        "value": "අලුත් වාහනයක්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "පාවිච්චි කළ වාහනය",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "පාවිච්චි කළ වාහනය",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.998431384563446,
+        "value": "පාවිච්චි කළ වාහනය",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට පාවිච්චි කළ වාහනයක් මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 22,
+        "value": "පාවිච්චි කළ වාහනයක්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 22,
+        "confidence_entity": 0.9936809539794922,
+        "value": "පාවිච්චි කළ වාහනයක්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "දෙවන අත වාහනය",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "දෙවන අත වාහනය",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9977147579193115,
+        "value": "දෙවන අත වාහනය",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මම පාවිච්චි කරපු කාර් එකකට කැමතියි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 21,
+        "value": "පාවිච්චි කරපු කාර්",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 21,
+        "confidence_entity": 0.9978796243667603,
+        "value": "පාවිච්චි කරපු කාර්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට second hand වාහනයක්  මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 14,
+        "value": "second hand",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 22,
+        "confidence_entity": 0.5611082911491394,
+        "value": "second hand වාහනයක්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "පෙට්රල්",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "පෙට්රල්",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9970310926437378,
+        "value": "පෙට්රල්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට පෙට්‍රල් කාරයක් මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 11,
+        "value": "පෙට්‍රල්",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 3,
+        "end": 11,
+        "confidence_entity": 0.8409067392349243,
+        "value": "පෙට්‍රල්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ඩීසල්",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "ඩීසල්",
+        "entity": "fuel"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9982636570930481,
+        "value": "ඩීසල්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

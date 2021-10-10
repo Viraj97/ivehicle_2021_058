@@ -1,0 +1,58 @@
+[
+  {
+    "text": "හෙලෝ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet_sin",
+      "confidence": 0.5326368808746338
+    }
+  },
+  {
+    "text": "සුභ උදෑසනක්",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet_sin",
+      "confidence": 0.4845792353153229
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5006974339485168
+    }
+  },
+  {
+    "text": "I want to sell a vehicle",
+    "intent": "main_menu2",
+    "intent_prediction": {
+      "name": "sell_vehicle",
+      "confidence": 0.5365816950798035
+    }
+  },
+  {
+    "text": "toyota",
+    "intent": "choose_car_type",
+    "intent_prediction": {
+      "name": "toyota_new_cars",
+      "confidence": 0.6362730264663696
+    }
+  },
+  {
+    "text": "ආයුබෝවන්",
+    "intent": "greet_sin",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4609276056289673
+    }
+  },
+  {
+    "text": "හායි",
+    "intent": "greet_sin",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4817722737789154
+    }
+  }
+]

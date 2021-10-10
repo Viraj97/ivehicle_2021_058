@@ -1,0 +1,178 @@
+version: "2.0"
+
+stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+
+# - story: choose paths
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: utter_welcome_msg
+#   - intent: main_menu1
+#   - action: utter_vehicle_condition
+#   - intent: vehicle_condition_new
+#   - action: utter_fuel_type
+#   - intent: fuel_type
+#   - action: utter_car_model
+#   - intent: choose_car_type
+#   - action: action_choose_car_type
+
+### Testing choose vehicle model#########
+- story: choose paths
+  steps:
+  - intent: deny
+  - action: utter_car_model
+  - intent: choose_car_type
+  - action: action_choose_car_type
+
+#buy vehicle used
+
+- story: choose used vehicle path
+  steps: 
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu1
+  - action: utter_vehicle_condition
+  - intent: vehicle_condition_used
+  - action: utter_car_model
+  - intent: choose_car_type
+  - action: action_choose_car_type
+
+#buy  brand new vehicle petrol toyota
+
+- story: choose brand new vehicle path toyota
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu1
+  - action: utter_vehicle_condition
+  - intent: vehicle_condition_new
+  - action: utter_fuel_type
+  - intent: fuel_type_petrol
+  - action: utter_brand_new_cars_petrol
+  - intent: toyota_new_cars
+  - action: utter_toyota_link
+
+#buy  brand new vehicle petrol alto
+- story: choose brand new vehicle path Alto
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu1
+  - action: utter_vehicle_condition
+  - intent: vehicle_condition_new
+  - action: utter_fuel_type
+  - intent: fuel_type_petrol
+  - action: utter_brand_new_cars_petrol
+  - intent: alto_new_cars
+  - action: utter_alto_link
+
+#buy  brand new vehicle petrol Mitsubishi
+- story: choose brand new vehicle path Alto
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu1
+  - action: utter_vehicle_condition
+  - intent: vehicle_condition_new
+  - action: utter_fuel_type
+  - intent: fuel_type_petrol
+  - action: utter_brand_new_cars_petrol
+  - intent: mitsubishi_new_cars
+  - action: utter_mitsu_link  
+
+#sell vehicle
+
+- story: choose vehicle sell
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu2
+  - action: utter_sell_Vehicle
+  - intent: sell_vehicle
+  - action: utter_goodbye
+
+ #buy vehicle parts
+ 
+- story: choose buy vehicle parts
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu3
+  - action: utter_buy_vehicle_parts_model
+  - intent: buy_vehicle_parts
+  - action: utter_buy_vehicle_parts
+
+
+# sell vehicle parts
+
+- story: choose sell vehicle parts
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_en
+  - action: utter_greet
+  - action: utter_welcome_msg
+  - intent: main_menu4
+  - action: utter_sell_vehicle_parts_model
+  - intent: sell_vehicle_parts
+  - action: utter_sell_vehicle_parts  
+
+
+
+  #story sinhala
+# - story: check sinhala
+#   steps:
+#   - intent: greet_sin
+#   - action: utter_greet_sin   
+
+
+- story: Selecting a language and contuning
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_sin  
+  - action: utter_welcome_msg_sin
+  - intent: main_menu1_sin
+  - action: utter_vehicle_condition_sin
+  - intent: vehicle_condition_new_sin
+  - action: utter_fuel_type_sin
+  - intent: fuel_type_petrol_sin
+  - action: utter_brand_new_cars_petrol_sin
+  - intent: toyota_new_cars_sin
+  - action: utter_toyota_link_sin

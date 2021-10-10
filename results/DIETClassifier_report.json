@@ -1,0 +1,41 @@
+{
+  "fuel": {
+    "precision": 0.9230769230769231,
+    "recall": 1.0,
+    "f1-score": 0.9600000000000001,
+    "support": 12,
+    "confused_with": {}
+  },
+  "vehicle_con": {
+    "precision": 0.9545454545454546,
+    "recall": 1.0,
+    "f1-score": 0.9767441860465117,
+    "support": 42,
+    "confused_with": {}
+  },
+  "car_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9634146341463414,
+    "recall": 1.0,
+    "f1-score": 0.9813664596273292,
+    "support": 79
+  },
+  "macro avg": {
+    "precision": 0.9592074592074592,
+    "recall": 1.0,
+    "f1-score": 0.9789147286821706,
+    "support": 79
+  },
+  "weighted avg": {
+    "precision": 0.9641497742763566,
+    "recall": 1.0,
+    "f1-score": 0.9815602001766265,
+    "support": 79
+  }
+}

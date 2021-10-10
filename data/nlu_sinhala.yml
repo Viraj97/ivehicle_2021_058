@@ -1,0 +1,101 @@
+version: "2.0"
+
+
+#greet sinhala
+nlu:
+- intent: greet_sin
+  examples: |
+    - ආයුබෝවන්
+    - හෙලෝ 
+    - හායි
+    - සුභ උදෑසනක්
+
+
+#goodbye sinhala
+- intent: goodbye_sin
+  examples: |
+    - බායි
+    - නැවත හමුවෙන්නම්
+    - ඔයාව පසුව හමුවෙන්නම්
+    - සුභ රාත්රියක්
+    - සුභ දිනයක් වේවා
+    - ඔබව පසුව දකින්නම්    
+
+
+
+- intent: main_menu1_sin
+  examples: |
+    - මට වාහනයක් ගන්න ඕන 
+
+- intent: main_menu2_sin
+  examples: |  
+    - මට වාහනයක් විකුණන්න ඕන 
+
+- intent: main_menu3_sin
+  examples: |
+    - මට වාහන අමතර කොටස් මිලදී ගැනීමට අවශ්‍යයි
+
+- intent: main_menu4_sin
+  examples: |  
+    - මට වාහන අමතර කොටස් විකිණීමට අවශ්‍යයි    
+
+
+### Sell Vehicle Sinhala
+- intent: sell_vehicle_sin
+  examples: |
+    - මට කාර් එකක් විකුනන්න ඕන
+    - මට මගේ [ටොයොටා](car_type) කාරය විකිණීමට අවශ්‍යයි  
+    - මට වෑන් එකක් විකුණන්න ඕන    
+    - මට මගේ කාර් එක විකුණන්න ඕන
+
+
+##Buy vehicle condition new sinhala
+- intent: vehicle_condition_new_sin
+  examples: |
+    - [නවතම වාහනයක්](vehicle_con)
+    - මට [නවතම වාහනයක්](vehicle_con) මිලදී ගැනීමට අවශ්‍යයි
+    - මට [නවතම කාර්](vehicle_con) එකක් මිලදී ගැනීමට අවශ්‍යයි
+    - මට [brand new කාර්](vehicle_con) එකක් මිලදී ගැනීමට අවශ්‍යයි  
+    - [අලුත් වාහනයක්](vehicle_con) මට උවමනා කර තිබේ 
+
+
+##Buy vehicle condition used sinhala
+- intent: vehicle_condition_used_sin
+  examples: |
+    - [පාවිච්චි කළ වාහනය](vehicle_con)
+    - මට [පාවිච්චි කළ වාහනයක්](vehicle_con) මිලදී ගැනීමට අවශ්‍යයි
+    - [දෙවන අත වාහනය](vehicle_con)
+    - මම [පාවිච්චි කරපු කාර්](vehicle_con) එකකට කැමතියි
+    - මට [second hand](vehicle_con) වාහනයක්  මිලදී ගැනීමට අවශ්‍යයි
+
+##Fuel type petrol
+- intent: fuel_type_petrol_sin
+  examples: |
+    - [පෙට්රල්](fuel)
+    - මට [පෙට්‍රල්](fuel) කාරයක් මිලදී ගැනීමට අවශ්‍යයි
+
+##Fuel type diesel
+- intent: fuel_type_diesel_sin
+  examples: |
+    - [ඩීසල්](fuel)
+    - මට [පෙට්‍රල්] (fuel) කාරයක් මිලදී ගැනීමට අවශ්‍යයි
+
+
+##New Cars
+- intent: toyota_new_cars_sin
+  examples: |
+    - ටොයොටා කාර්    
+    - ටොයොටා අලුත් කාර් එකක්
+    - ටොයොටා
+
+- intent: alto_new_cars_sin
+  examples: |
+    - ඇල්ටෝ
+    - ඇල්ටෝ කාර් 
+    - සුසුස්කි ඇල්ටෝ කාරය
+    - සුසුකි ඇල්ටෝ කාරය     
+
+# ###Choose  car type sinhala
+# - intent: choose_car_type_sin
+#   examples: |
+#     - 

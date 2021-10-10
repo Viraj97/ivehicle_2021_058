@@ -1,0 +1,58 @@
+[
+  {
+    "text": "i'd like a used car",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "used",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.49371349811553955,
+        "value": "used car",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට second hand වාහනයක්  මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [
+      {
+        "start": 3,
+        "end": 14,
+        "value": "second hand",
+        "entity": "vehicle_con"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vehicle_con",
+        "start": 3,
+        "end": 22,
+        "confidence_entity": 0.5611082911491394,
+        "value": "second hand වාහනයක්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "මට [පෙට්‍රල්] (fuel) කාරයක් මිලදී ගැනීමට අවශ්‍යයි",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "fuel",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.5416054725646973,
+        "value": "පෙට්‍රල්",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
