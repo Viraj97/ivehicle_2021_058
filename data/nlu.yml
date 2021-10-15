@@ -115,7 +115,7 @@ nlu:
 - intent: main_menu1
   examples: |
     - I want to buy a vehicle 
-    
+   
 
 - intent: main_menu2
   examples: |  
@@ -238,3 +238,10 @@ nlu:
     - I want to buy a [maruti](car_type)
     - [Swift](car_type)
     - axio
+    - Prado(car_type)
+
+- intent: inform
+  examples: |
+    - I want a car
+    - I want a black car
+    - i want to buy a car    
