@@ -40,7 +40,9 @@ intents:
   - fuel_type_diesel_sin
   - toyota_new_cars_sin
   - alto_new_cars_sin
-
+###########################  
+  - inform
+  - stop
 
 entities:
   - vehicle_con
@@ -64,6 +66,7 @@ slots:
 actions:
   - action_hello_world
   - action_choose_car_type  
+  - validate_simple_vehicle_form
 
 responses:
   utter_greet:
@@ -83,7 +86,7 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by iVehicle. How may I help you sir?"
 
   utter_welcome_msg:
   - text: "What type of a service do you want?"
@@ -160,9 +163,21 @@ responses:
   - text: "Check out this link \n https://ikman.lk/en/ads/c/sri-lanka/cars/new " 
 
 
+  utter_ask_vehicle_con:
+    - text: "Do you prefer a Used Vehicle or a Brand New Vehicle ? "
+
+  utter_ask_fuel:
+    - text: "What fuel type do you prefer  Petrol or Diesel ?"
+
+  utter_ask_car_type:
+    - text: "What type of a car model do you prefer ? "
+
+  utter_ask_continue:   
+    - text: Are you sure you want to stop ?
+
 #### Sinhala Responses ##########
   utter_greet_sin:
-  - text: "හායි ඔයාට කොහොමද ? "
+  - text: "හායි ඔබට කොහොමද ? "
 
   utter_select_language:
   - text: "Please select a language to proceed"
@@ -175,7 +190,7 @@ responses:
 
 
   utter_welcome_msg_sin:
-  - text: "ඔබට අවශ්‍ය කුමන ආකාරයේ සේවාවක් ද??"
+  - text: "ඔබට අවශ්‍ය කුමන ආකාරයේ සේවාවක් ද?"
     buttons:
       - payload:  "/main_menu1_sin"
         title:  "වාහනයක් මිලදී ගැනීම"
@@ -215,6 +230,25 @@ responses:
   utter_toyota_link_sin:
    - text: "ඔබේ ටොයොටා කාරය මිලදී ගැනීම සඳහා ඔබට මෙම සම්බන්ධකය පරීක්ෂා කළ හැකිය \n https://www.toyota.lk/ "
   
+  utter_sell_Vehicle_sin:
+  - text: "ඔබට කුමන ආකාරයේ වාහනයක්ද විකිණීමට අවශ්‍ය ?" 
+  
+  utter_goodbye_sin:
+  - text: "ස්තුතියි අපගේ සේවාව ලබා ගැනීමට නැවත පැමිණෙන්න!" 
+
+  utter_sell_Vehicle_sin_link:
+  - text: "ඔබේ කාරය විකිණීමට මෙම සම්බන්ධකය බලන්න \n [Link](https://www.careka.lk/) "
+
+#forms
+forms :
+  simple_vehicle_form:
+    required_slots:
+      vehicle_con:
+      - entity: vehicle_con
+        type: from_entity
+      fuel:
+      - entity: fuel
+        type: from_entity
 
 session_config:
   session_expiration_time: 60

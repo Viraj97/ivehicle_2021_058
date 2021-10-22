@@ -9,16 +9,6 @@ stories:
 #   - intent: mood_great
 #   - action: utter_happy
 
-# - story: sad path 1
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
-
 
 # - story: choose paths
 #   steps:
@@ -34,13 +24,6 @@ stories:
 #   - intent: choose_car_type
 #   - action: action_choose_car_type
 
-### Testing choose vehicle model#########
-- story: choose paths
-  steps:
-  - intent: deny
-  - action: utter_car_model
-  - intent: choose_car_type
-  - action: action_choose_car_type
 
 #buy vehicle used
 
@@ -153,14 +136,33 @@ stories:
   - intent: sell_vehicle_parts
   - action: utter_sell_vehicle_parts  
 
-
+  #Interuption Form
+  
+- story: interactive_story_5
+  steps:
+  # - intent: greet
+  # - action: utter_greet
+  - intent: inform
+  - action: simple_vehicle_form
+  - active_loop: simple_vehicle_form
+  - slot_was_set:
+    - requested_slot: vehicle_con
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: simple_vehicle_form
+  - slot_was_set:
+    - requested_slot: vehicle_con
+  - intent: stop
+  - action: utter_ask_continue
+  - intent: affirm
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - intent: goodbye
+  - action: utter_goodbye
 
   #story sinhala
-# - story: check sinhala
-#   steps:
-#   - intent: greet_sin
-#   - action: utter_greet_sin   
-
 
 - story: Selecting a language and contuning
   steps:
@@ -176,3 +178,18 @@ stories:
   - action: utter_brand_new_cars_petrol_sin
   - intent: toyota_new_cars_sin
   - action: utter_toyota_link_sin
+
+# Selling a Vehicle
+
+- story: Selling a Vehicle
+  steps:
+  - intent: greet
+  - action: utter_select_language
+  - intent: language_sin  
+  - action: utter_welcome_msg_sin
+  - intent: main_menu2_sin
+  - action: utter_sell_Vehicle_sin
+  - intent: sell_vehicle_sin
+  - action: utter_sell_Vehicle_sin_link
+  - intent: goodbye_sin
+  - action: utter_goodbye_sin

@@ -27,7 +27,7 @@ from rasa_sdk.types import DomainDict
 from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 
-ALLOWED_VEHICLE_CON=["used","brand new","new","old","Used Vehicles","Brand New Vehicles"]
+ALLOWED_VEHICLE_CON=["used","brand new","new","old","Used Vehicles","Brand New Vehicles","Used vehicle"]
 ALLOWED_FUEL_TYPES = ["Petrol", "Diesel"]
 
 class ActionHelloWorld(FormAction):
@@ -70,7 +70,7 @@ class ValidateSimplePizzaForm(FormValidationAction):
         if slot_value.lower() not in ALLOWED_VEHICLE_CON:
             dispatcher.utter_message(text=f"We only accept : Used Vehicles/Brand New Vehicles.")
             return {"vehicle_con": None}
-        dispatcher.utter_message(text=f"OK! You want to have a {slot_value} car ")
+        dispatcher.utter_message(text=f"OK! You want to have a {slot_value} vehicle ")
         return {"vehicle_con": slot_value}
 
     def validate_fuel(
@@ -83,7 +83,7 @@ class ValidateSimplePizzaForm(FormValidationAction):
         """Validate `fuel` value."""
 
         if slot_value not in ALLOWED_FUEL_TYPES:
-            dispatcher.utter_message(text=f"I don't recognize fuel type. We serve {'/'.join(ALLOWED_PIZZA_TYPES)}.")
+            dispatcher.utter_message(text=f"I don't recognize fuel type. We serve {'/'.join(ALLOWED_FUEL_TYPES)}.")
             return {"fuel": None}
         dispatcher.utter_message(text=f"OK! You want to have a {slot_value} car.")
         return {"fuel": slot_value}

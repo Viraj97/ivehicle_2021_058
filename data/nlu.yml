@@ -69,6 +69,14 @@ nlu:
     - no way
     - not really
 
+- intent: stop
+  examples: |
+    - stop
+    - nevermind
+    - please stop
+    - i want to stop
+    - stop the form    
+
 - intent: mood_great
   examples: |
     - perfect

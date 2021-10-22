@@ -12,6 +12,27 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+## Add rules
+- rule: Activate Simple Vehicle Form
+  steps:
+  - intent: inform
+  - action: simple_vehicle_form
+  - active_loop: simple_vehicle_form
+
+- rule: Submit Vehicle Form
+  condition:
+  - active_loop: simple_vehicle_form
+  steps:
+  - action: simple_vehicle_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_choose_car_type
+  - intent: goodbye
+  - action: action_deactivate_loop
+  - active_loop: null
+  
+
 # - rule : Give the common link
 #   steps:
-#   - intent: 
+#   - intent:   
